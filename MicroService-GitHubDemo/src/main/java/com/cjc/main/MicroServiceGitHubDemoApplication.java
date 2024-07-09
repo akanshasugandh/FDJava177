@@ -6,6 +6,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MicroServiceGitHubDemoApplication {
 
+	public void m1()
+	{
+		System.out.println("m1 ---> method");
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(MicroServiceGitHubDemoApplication.class, args);
 	}
